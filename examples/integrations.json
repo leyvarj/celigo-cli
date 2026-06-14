@@ -1,0 +1,12 @@
+{
+  "_id": "<integrations_id>",
+  "name": "Salesforce AM Account Reporting",
+  "description": "Contains flows that fetch Salesforce account records.",
+  "install": [],
+  "_registeredLookupCacheIds": [],
+  "installSteps": [],
+  "uninstallSteps": [],
+  "changeEditionSteps": [],
+  "flowGroupings": [],
+  "apiGroupings": []
+}
