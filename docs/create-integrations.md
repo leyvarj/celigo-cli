@@ -1,4 +1,4 @@
-# Celigo CLI Create Integrations
+# Create Integrations
 
 Create a project directory:
 
