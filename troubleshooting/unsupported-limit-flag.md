@@ -1,4 +1,4 @@
-# `--limit` Not Supported
+# Unsupported `--limit` Flag
 
 ## Symptoms
 
@@ -33,4 +33,4 @@ celigo users list --jq '.[0:5]'
 
 ## Related Documentation
 
-- [Celigo CLI Commands](../docs/celigo-cli-commands.md)
+- [CLI Commands Quick Reference](../docs/cli-commands-quick-reference.md)

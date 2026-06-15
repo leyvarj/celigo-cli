@@ -1,4 +1,4 @@
-# Celigo CLI Configuration
+# Profiles and Regions Configuration
 
 Celigo CLI uses a two-level configuration model:
 
@@ -129,4 +129,4 @@ Resolution order (each overrides the next):
 
 ## Related Documentation
 
-- [Celigo CLI Commands](../docs/celigo-cli-commands.md)
+- [CLI Commands Quick Reference](../docs/cli-commands-quick-reference.md)
