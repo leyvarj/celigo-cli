@@ -55,4 +55,5 @@ Full example, see:
 
 ## Related Documentation
 
+- [Integrations CLI Reference](https://developer.celigo.com/cli/build/integrations)
 - [Celigo Integrations API Reference](https://developer.celigo.com/api/api-reference/integrations)
