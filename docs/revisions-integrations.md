@@ -1,6 +1,6 @@
 # Revisions Integrations
 
-List all revisions (snapshots, pulls, pushes) for an integration:
+List all revisions (snapshots, pulls, pushes) for an integration.
 
 ```bash
 celigo integrations revisions <id>
