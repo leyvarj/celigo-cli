@@ -1,6 +1,6 @@
 # Revision Diff Integrations
 
-Show the before/after diff for a pending revision:
+Show the before/after diff for a pending revision.
 
 ```bash
 celigo integrations revision-diff <id> <revisionId>

@@ -1,6 +1,6 @@
 # Create Integrations
 
-Create a project directory:
+Create an integration.
 
 ```bash
 mkdir <integration_name> && cd <integration_name>

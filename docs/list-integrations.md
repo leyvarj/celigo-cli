@@ -1,9 +1,6 @@
 # List Integrations
 
-List every integration in the account:
-
-> **NOTE** Default output format is JSON. Use `--format table` for a tabular
-> view.
+List every integration in the account.
 
 ```bash
 celigo integrations list
@@ -23,6 +20,9 @@ _None._
 
 _None beyond
 [global flags](https://developer.celigo.com/cli/getting-started/global-flags.md)._
+
+> **NOTE** Default output format is JSON. Use `--format table` for a tabular
+> view.
 
 ## Related Documentation
 

@@ -1,21 +1,16 @@
 # Download Integrations
 
-Log in to integrator.io and copy the integration ID from the URL.
-
-Then run:
-
-> **NOTE** The `<id>` argument is a 24-character hex string assigned by the
-> platform. Copy it from the integration page URL in integrator.io.
+Download an integration as a ZIP archive.
 
 ```bash
-celigo integrations download 000000000000000000000001 -o ./backup.zip
+celigo integrations download 5f83a9b2c7d3e8f1a2b3c4d5 -o ./backup.zip
 ```
 
 **Arguments**
 
-| Argument | Type   | Required | Description     |
-| -------- | ------ | -------- | --------------- |
-| `<id>`   | string | Yes      | Integration ID. |
+| Argument | Type   | Required | Description                                                                        |
+| -------- | ------ | -------- | ---------------------------------------------------------------------------------- |
+| `<id>`   | string | Yes      | Integration ID (24-char hex). Copy from the integration page URL in integrator.io. |
 
 **Flags**
 
