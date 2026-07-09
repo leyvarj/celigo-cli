@@ -51,7 +51,7 @@ celigo integrations create < integrations.json
 
 Full example, see:
 
-- [integrations.json](../examples/integrations.json)
+- [integrations.json](../../examples/integrations.json)
 
 ## Related Documentation
 
