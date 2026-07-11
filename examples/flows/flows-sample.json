@@ -1,0 +1,75 @@
+{
+  "_id": "<integrations_id>",
+  "name": "Salesforce Accounts to Google Sheets",
+  "schedule": "? 5 8 * * 1",
+  "timezone": "America/New_York",
+  "pageGenerators": [
+    {
+      "_exportId": "<export_id>",
+      "skipRetries": false
+    }
+  ],
+  "runPageGeneratorsInParallel": true,
+  "autoResolveMatchingTraceKeys": true,
+  "routers": [
+    {
+      "name": "Route Accounts by Owner",
+      "routeRecordsTo": "first_matching_branch",
+      "routeRecordsUsing": "script",
+      "branches": [
+        {
+          "name": "C Libre Salesforce Account",
+          "inputFilter": {
+            "rules": []
+          },
+          "pageProcessors": [
+            {
+              "type": "export",
+              "_exportId": "<export_id>",
+              "responseMapping": {
+                "fields": [],
+                "lists": []
+              }
+            },
+            {
+              "type": "import",
+              "_importId": "<import_id>",
+              "responseMapping": {
+                "fields": [],
+                "lists": []
+              }
+            }
+          ],
+          "branchId": "iqwR1Sp5UEU"
+        },
+        {
+          "name": "L Catre Salesforce Account",
+          "pageProcessors": [
+            {
+              "type": "export",
+              "_exportId": "<export_id>",
+              "responseMapping": {
+                "fields": [],
+                "lists": []
+              }
+            },
+            {
+              "type": "import",
+              "_importId": "<import_id>",
+              "responseMapping": {
+                "fields": [],
+                "lists": []
+              }
+            }
+          ],
+          "branchId": "o8TobATVHWX"
+        }
+      ],
+      "script": {
+        "_scriptId": "<script_id>",
+        "function": "branching"
+      },
+      "id": "Ii7fKQRhpuE"
+    }
+  ]
+}
